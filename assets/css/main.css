@@ -5,28 +5,40 @@ body{
 
 .navbar-default{
 	margin: 0;
+	opacity: 0.4;
+	background-color:  #000;
+	color: #FFFFFF; 
+}
+
+li{
+	font-size: 18px;
+	font-weight: 600;
 }
 
 .logo{
-	width:50%;
+	width: 40%;
 }
 .jumbotron{
+	width: 100%;
 	padding: 0;
+	margin: 0;
 	background-image: url(../images/bg.jpeg);
 	background-position: center;
 	color: #FFFFFF;
 	text-align: center;
+	box-sizing: border-box;
+
 }
 
 h1{
-	width: 70%
-	margin: 0;
-	padding: 50px 0 20px 0;
-
+	margin: 0 0 0 15%;
+	width: 70%;
+	padding: 80px 0 30px 0;	
 }
 
-.btn-lg{
-	display: inline-block;
+.btn-group{
+	margin-top: 20px;
+	padding: 40px;
 }
 
 .sub-text{
@@ -34,8 +46,44 @@ h1{
 	margin-left: 50px;
 	padding: 15px 0 30px 0;
 }
+.section-two{
+	text-align: center;
+}
 
+h4{
+	font-weight: 600;
+	margin-top: 10%;
+}
 #carousel-example-generic{
 	width: 50%;
-	margin-left: 20%;
+	margin-left: 25%;
+}
+
+.row-line{
+	border-top: 2px solid #EAECEE;
+} 
+
+.lorem{
+	margin-bottom: 10%;
+}
+
+h5{
+	margin-bottom: 15%;
+}
+
+.contact{
+	width: 85%;
+	padding: 10px;
+}
+
+.form-inline{
+	padding-bottom: 15%;
+}
+
+.footer{
+	width: 100%;
+	background-color: #222222;
+	color: #FFFFFF;
+	padding: 2% 0 2% 9%;
+
 }

@@ -17,8 +17,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header>
-		<nav class="navbar navbar-default navbar-fixed-top">
+	<header>  
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Con la condición fixed-top permite que el navbar me siga desde arriba -->
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -29,7 +30,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a class="navbar-brand" href="#"></a>
-		      <img class="logo" src="images/logo.png" alt="">
+		      <img class="logo" src="images/latam_logo.png" alt="">
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,15 +45,25 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 	</header>
+	<!-- JUMBOTRON -->
 	<main>
 		<section>
 			<div class="jumbotron">
   				<h1>COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
-  				<p><a class="btn btn-primary btn-lg" href="#" role="button">Comienza Acá</a></p>
-  				<p><a class="btn btn-primary btn-lg" href="#" role="button">Mas Info</a></p>
+  				<!-- BOTONES -->
+  				<!-- Single button -->
+				<div class="btn">
+					<div class="btn-group">
+  						<button type="button" class="btn btn-primary">Comienza Acá !!!</button>
+  					</div>
+  					<div class="btn-group">
+  						<button type="button" class="btn btn-success">Mas Info</button>
+  					</div>
+				</div>
   				<p class="sub-text">Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno.</p>
 			</div>
 		</section>
+		<!-- TEXTO -->
 		<section>
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4">
@@ -63,6 +74,7 @@
 				</div>
 			</div>
 		</section>
+		<!-- CARRUSEL -->
 		<section>
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   				<!-- Indicators -->
@@ -75,19 +87,19 @@
   			<!-- Wrapper for slides -->
   			<div class="carousel-inner" role="listbox">
     			<div class="item active">
-      				<img src="images/bg.jpeg" alt="...">
+      				<img src="images/rapa1.jpg" alt="...">
       			<div class="carousel-caption">
         			...
       			</div>
 			</div>
 			<div class="item">
-      			<img src="images/bg22.jpeg" alt="...">
+      			<img src="images/rapa2.jpg" alt="...">
   				<div class="carousel-caption">
         			...
       			</div>
     		</div>
     		<div class="item">
-      			<img src="images/bg.jpeg" alt="...">
+      			<img src="images/rapa3.jpg" alt="...">
       			<div class="carousel-caption">
         		...
       			</div>
@@ -106,7 +118,55 @@
   				</a>
 			</div>
 		</section>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<!-- FIN CARRUSEL -->
+		<!-- INSCRIPCIÓN -->
+		<section>
+			<div class="row-line">
+				<div class="col-md-4 col-md-offset-4">
+					<div class="section-two">
+						<h4>SOLICITA INFORMACIÓN E INSCRÍBETE</h4>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi velit possimus error hic eos.</p>
+						<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+						<button type="button" class="btn btn-primary">Inscríbete</button>
+						<h5>Víve la experiencia Desafío Latam</h5>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FIN INSCRIPCIÓN -->
+		<!-- FORMULARIO -->
+		<section>
+			<div class="row-line">
+				<div class="col-md-3 col-md-offset-2">
+						<div class="contact">
+							<h3>Contacto</h3>
+							<p><strong>Desafío Latam</strong> Ezequias Allende 2631 P:+56 9 5117 7975</p>
+							<a href="inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="contact">
+							<h3>Suscríbete</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque id nulla alias rerum et odio dolores sequi.</p>
+						</div>
+						<form class="form-inline">
+  							<div class="form-group">
+    							<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Ingresa tu email...">
+  							</div>
+  								<button type="submit" class="btn btn-default">Enviar</button>
+						</form>
+					</div>
+				</div>
+		</section>
 	</main>
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer">
+					<h6>DESAFÍO LATAM 2018 - CURSO FRONT END G7</h6>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
